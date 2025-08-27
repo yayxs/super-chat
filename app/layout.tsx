@@ -15,15 +15,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Super Chat - 主流大语言模型聊天入口",
-  description: "集成主流大语言模型的聊天入口，包括 OpenAI ChatGPT 等，提供便捷的 AI 聊天体验",
-  keywords: "AI聊天,ChatGPT,大语言模型,人工智能,聊天机器人",
+  title: "Super Chat - Gateway to Leading AI Language Models",
+  description: "Integrated gateway to mainstream AI language models, including OpenAI ChatGPT and more, providing convenient AI chat experience",
+  keywords: "AI Chat, ChatGPT, Large Language Models, Artificial Intelligence, Chatbots",
   authors: [{ name: "Super Chat" }],
   openGraph: {
-    title: "Super Chat - 主流大语言模型聊天入口",
-    description: "集成主流大语言模型的聊天入口",
+    title: "Super Chat - Gateway to Leading AI Language Models",
+    description: "Integrated gateway to mainstream AI language models",
     type: "website",
-    locale: "zh_CN",
+    locale: "en_US",
   },
 };
 
@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
