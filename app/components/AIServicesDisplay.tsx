@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import IPDetector from './IPDetector';
 
 interface AIService {
   id: string;
@@ -77,10 +76,7 @@ export default function AIServicesDisplay() {
 
   return (
     <>
-      {/* IP Detection */}
-      <div className="mt-6">
-        <IPDetector onLocationChange={handleLocationChange} />
-      </div>
+     
 
       {/* AI Chat Services */}
       <div className="py-16">
